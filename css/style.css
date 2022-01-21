@@ -1,0 +1,42 @@
+.taskWrapper {
+  background-color: #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.taskHeading {
+  display: flex;
+  justify-content: center;
+  word-break: break-all;
+  font-size: 20px;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.taskDescription {
+  display: flex;
+  justify-content: center;
+  word-break: break-all;
+  font-size: 16px;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.completed {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  color: rgb(48, 13, 251);
+}
+
+.form-check-input {
+  margin-right: 14px;
+}
+
+.delete-btn {
+  display: block;
+  margin: 0 auto;
+  color: aqua;
+}
