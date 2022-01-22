@@ -169,8 +169,8 @@ const view = {
       target.getAttribute(`data-elem-id`)
     );
 
-    const todoElemContainer = findParentElemByClass(target, "taskWrapper");
-    todoElemContainer.parentElement.remove();
+    const todoElemContainer = target.closest(`.col-4`);
+    todoElemContainer.remove();
   },
 
   deleteAllTodoElems() {
